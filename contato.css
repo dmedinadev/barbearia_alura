@@ -114,3 +114,29 @@ footer {
     font-size: 0.7em;
     margin: 20px 0;
 }
+
+@media screen and (max-width: 980px) {
+    .caixa {
+        width: 95%;
+    }
+
+    form {
+        width: 95%;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .caixa {
+        width: 95%;
+    }
+
+    form {
+        width: 95%;
+        margin: auto;
+    }
+
+    .enviar {
+        font-size: 1em;
+    }
+}
