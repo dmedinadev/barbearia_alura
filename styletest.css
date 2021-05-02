@@ -142,9 +142,13 @@ footer {
     margin: 20px 0;
 }
 
-@media screen and (max-width: 480px) {
-    .caixa, .principal,.conteudo-beneficios, .mapa {
+@media screen and (max-width: 640px) {
+    .principal,.conteudo-beneficios, .mapa {
         width: auto;
+    }
+
+    .caixa {
+        width: 340px;
     }
 
     h1 {
@@ -153,6 +157,7 @@ footer {
 
     nav {
         position: static;
+        left: 50%;
     }
 
     .lista-beneficios {
