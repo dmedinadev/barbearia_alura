@@ -142,6 +142,34 @@ footer {
     margin: 20px 0;
 }
 
+@media screen and (max-width: 1020px) {
+    .principal,.conteudo-beneficios, .mapa {
+        width: auto;
+    }
+
+    .caixa {
+        width: 340px;
+        margin: auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+        left: 50%;
+    }
+
+    .lista-beneficios {
+        width: 100%;
+    }
+
+    .itens-beneficios {
+        width: 100%;
+    }
+}
+
 @media screen and (max-width: 640px) {
     .principal,.conteudo-beneficios, .mapa {
         width: auto;
